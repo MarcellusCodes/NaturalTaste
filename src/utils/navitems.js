@@ -6,7 +6,7 @@ const NavItems = [
   },
   {
     id: 2,
-    name: "Your Dish",
+    name: "Order",
     href: "/personal-dish",
   },
   {
