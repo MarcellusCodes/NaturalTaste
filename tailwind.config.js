@@ -6,7 +6,6 @@ module.exports = {
       colors: {
         primary: "#FF6E00",
         secondary: "#96CFCE",
-        white: "#FFFFFF",
       },
       boxShadow: {
         dreamy:

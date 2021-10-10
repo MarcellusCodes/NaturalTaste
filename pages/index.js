@@ -1,6 +1,8 @@
 import Head from "next/head";
 import { LayoutContainer, Navbar } from "../src/components/index";
 import NavItems from "../src/utils/navitems";
+import WavyText from "../src/components/typoghraphy/wavyText";
+import Theme from "../src/utils/theme";
 export default function Home() {
   return (
     <LayoutContainer>
