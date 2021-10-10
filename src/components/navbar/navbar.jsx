@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import NavItem from "./navitem";
-import Branding from "../../assets/branding.svg";
 
 const Navbar = ({ items }) => {
   return (
@@ -10,10 +9,11 @@ const Navbar = ({ items }) => {
         <div className="flex-row flex items-center justify-between container mx-auto">
           <div className="flex flex-row items-center">
             <Image
-              src={Branding}
+              src="/branding.svg"
               alt="Branding of NaturalTaste"
               width={50}
               height={50}
+              layout="fixed"
             />
             <Link href="/">
               <a className="text-xl text-white font-bold font-mono hover:text-[#FF6E00] transition duration-200 ease-in">

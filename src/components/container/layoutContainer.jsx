@@ -1,7 +1,7 @@
 const LayoutContainer = ({ children }) => {
   return (
     <>
-      <div className="px-10 pt-10 bg-white overflow-x-hidden relative">
+      <div className="p-0 sm:p-3 md:p-5 lg:p-10 bg-white overflow-x-hidden relative">
         {children}
       </div>
     </>

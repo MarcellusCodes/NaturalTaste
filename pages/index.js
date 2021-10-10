@@ -1,8 +1,6 @@
 import Head from "next/head";
-import { LayoutContainer, Navbar } from "../src/components/index";
 import NavItems from "../src/utils/navitems";
-import WavyText from "../src/components/typoghraphy/wavyText";
-import Theme from "../src/utils/theme";
+import { Header, LayoutContainer, Navbar } from "../src/components/index";
 export default function Home() {
   return (
     <LayoutContainer>
@@ -12,6 +10,7 @@ export default function Home() {
         <link rel="icon" type="image/svg+xml" href="favicon.svg" />
       </Head>
       <Navbar items={NavItems} />
+      <Header />
     </LayoutContainer>
   );
 }
